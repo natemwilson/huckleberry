@@ -11,11 +11,16 @@ body {
 
 
 /* Add styles here! */
+.title {
+  margin: 1rem 0;
+}
 .intro-chunk {
-  max-width: 300px;
+  padding: 1rem;
+  max-width: 350px;
 }
 .max-width-wrapper {
-  margin: 100px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .indented-heading {
@@ -38,7 +43,8 @@ main {
   background: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 30%);
   margin-bottom: 2rem;
-  margin-left:-1rem;
+  margin-top: 2rem;
+  /* margin-left:-1rem; */
 }
 
 
